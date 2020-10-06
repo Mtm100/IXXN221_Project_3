@@ -22,4 +22,13 @@ ul {
   li a:hover {
     text-shadow: 2px 2px #000;
   }
+  .Gallery-one, .Gallery-two, .Gallery-three, .Gallery-four, .Gallery-five, .Gallery-six{
+    width:50%
+  }
+  .gallery-wrapper{
+    display:flex;
+  }
+  .gallery-row{
+    flex-grow: 4;
+  }
   
