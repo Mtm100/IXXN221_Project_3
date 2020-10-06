@@ -22,4 +22,9 @@ ul {
   li a:hover {
     text-shadow: 2px 2px #000;
   }
+  h1{
+    font-family: brother-1816, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
   
