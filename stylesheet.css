@@ -1,3 +1,7 @@
+*{
+  margin:0;
+  padding:0;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,13 +26,145 @@ ul {
   li a:hover {
     text-shadow: 2px 2px #000;
   }
+/*heading text*/
+.text{
+  text-align:center;
+ padding-top:1%;
+  padding-bottom:2%;
+}
+.adopt-today{
+  color:#FFAD5C;
+  font-family: brother-1816-printed,sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size:400%;
+}
+.perfect-pet{
+  font-family: brother-1816-printed,sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  color:#459B99;
+  font-size:150%;
+}
+
+
+
+/*dropdown styling - from w3 school*/
+.dropbtn {
+  background-color: #FFAD5C;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Helvetica,sans-serif;
+  border-radius:8px;
+  width:185px;
+  height:32px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-image{
+ float:left;
+ margin-left:10%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Helvetica,sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FFAD5C;
+}
+
+.dropdown-wrapper{
+  text-align:center;
+  margin-bottom:3%;
+}
+/*gallery image styling*/
+
   .Gallery-one, .Gallery-two, .Gallery-three, .Gallery-four, .Gallery-five, .Gallery-six{
-    width:50%
+    width:90%;
   }
   .gallery-wrapper{
-    display:flex;
+   margin:3%;
   }
   .gallery-row{
-    flex-grow: 4;
+   display:flex;
+   padding-bottom:2%;
+   
   }
-  
+  .gallery-image{
+    position: relative;
+  }
+  .name{
+    position: absolute;
+    bottom:0;
+    color:white;
+    background-color:#459B99;
+    width:90%;
+    height:15%;
+    opacity: 0.8;
+    
+  }
+.animal-name-heading{
+  padding-left:5%;
+  padding-top:2%;
+  font-family: brother-1816-printed,sans-serif;
+}
+.gender-symbol{
+  padding-left:2%;
+  opacity:1;
+  padding-top:2%;
+}
+/* hover over animation - some code from w3 school*/
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #459B99;
+  overflow: hidden;
+  width: 90%;
+  height: 0;
+  transition: .5s ease;
+  text-decoration: none;
+  color:white;
+}
+.container:hover .overlay{
+  height:100%;
+
+}
+.divide{
+  border-top:1px white;
+  width:80%;
+  margin-left: 10%;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+.subheading-information{
+  display:flex;
+}
