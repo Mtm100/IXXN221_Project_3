@@ -153,6 +153,11 @@ body {
   padding-top:2%;
   font-family: brother-1816-printed,sans-serif;
 }
+.animal-name-heading-card{
+  padding-left:10%;
+  padding-top:3%;
+  font-family: brother-1816-printed,sans-serif;
+}
 .gender-symbol{
   padding-left:2%;
   opacity:1;
@@ -183,15 +188,41 @@ body {
   margin-top:5%;
   margin-bottom:5%;
 }
-.subheading-information-1{
-  display:inline-block;
-  
-}
-.information-text{
-  color:black;
-  
 
+.section-1,.section-2,.section-3,.section-a,.section-b,.section-c{
+  font-family: Helvetica,sans-serif;
+ padding-bottom:5%;
 }
-h3{
+.animal-information-card-section{
+  flex-direction:column;
+  align-items: stretch;
+  width:50%;
   padding-left:10%;
+  
+}
+.animal-information-card{
+  display:flex;
+}
+.gallery-icon{
+  width:50%;
+}
+
+/*icon section*/
+.animal-icon-information{
+  display:flex;
+}
+.icon-section{
+  flex-direction:column;
+  align-items:stretch;
+  width:30%;
+}
+.icon-text-1, .icon-text-2, .icon-text-3, .icon-text-4{
+  padding-bottom:30%;
+  font-family: Helvetica,sans-serif;
+} 
+.icon-1, .icon-2, .icon-3, .icon-4{
+  padding-bottom:30%;
+}
+.icon-1, .icon-2{
+  padding-left:30%;
 }
