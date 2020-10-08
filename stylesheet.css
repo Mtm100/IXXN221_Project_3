@@ -7,6 +7,8 @@ body {
   background-color: #F9F9F9;
 }
 
+/* Nav Bar */
+
 .navigation-bar {
   width: 100%;  
   height: 80px; 
@@ -34,4 +36,301 @@ body {
   font-style: normal;
   color: #F9F9F9;
   text-decoration: none;
+}
+
+
+/* Home Page Background Img */
+.bgimg { 
+  background: url(images/HomePagePhoto.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Homepage Text & Button */
+.heading-container{
+    position: absolute;
+    bottom: 250px;
+    left: 60px;
+  }
+.headline{
+  font-family: brother-1816, sans-serif;
+  font-weight: 800;
+  color: #FFAD5C;
+  font-size: 60px;
+}
+.tagline{
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  color: #459B99;
+  font-size: 25px;
+  padding-right: 35%;
+}
+
+.adopt2daytext{
+  position: absolute;
+  bottom: 120px;
+  left: 60px;
+  font-family: brother-1816, sans-serif;
+  font-weight: 800;
+  color: #FFAD5C;
+  font-size: 20px;
+}
+.adoptpaw{
+  position: absolute;
+  bottom: 130px;
+  left: 380px;
+
+
+}
+.adopt2day{
+  padding-right: 35%;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.adopt2day:hover {
+  
+  text-shadow:0px 0px 30px #303030;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.Social{
+  position: absolute;
+  bottom: 50px;
+  right: 60px;
+}
+
+/* JESS GALLERY PAGE */
+
+/*Animal gallery css*/
+/*heading text*/
+.text-gallery-title{
+  text-align:center;
+  padding-top:1%;
+  padding-bottom:2%;
+}
+.adopt-today{
+  color:#FFAD5C;
+  font-family: brother-1816-printed,sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size:400%;
+}
+.perfect-pet{
+  font-family: brother-1816-printed,sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  color:#459B99;
+  font-size:150%;
+}
+
+
+
+/*dropdown styling - from w3 school*/
+.dropbtn {
+  background-color: #FFAD5C;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Helvetica,sans-serif;
+  border-radius:8px;
+  width:185px;
+  height:32px;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-image{
+ float:left;
+ margin-left:10%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Helvetica,sans-serif;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #FFAD5C;
+}
+
+.dropdown-wrapper{
+  text-align:center;
+  margin-bottom:3%;
+}
+/*gallery image styling*/
+
+  .Gallery-one, .Gallery-two, .Gallery-three, .Gallery-four, .Gallery-five, .Gallery-six{
+    width:90%;
+  }
+  .gallery-wrapper{
+   margin:3%;
+  }
+  .gallery-row{
+   display:flex;
+   padding-bottom:2%;
+   
+  }
+  .gallery-image{
+    position: relative;
+  }
+  .name{
+    position: absolute;
+    bottom:0;
+    color:white;
+    background-color:#459B99;
+    width:90%;
+    height:15%;
+    opacity: 0.8;
+    
+  }
+.animal-name-heading{
+  padding-left:5%;
+  padding-top:2%;
+  font-family: brother-1816-printed,sans-serif;
+}
+.animal-name-heading-card{
+  padding-left:10%;
+  padding-top:3%;
+  font-family: brother-1816-printed,sans-serif;
+}
+.gender-symbol{
+  padding-left:2%;
+  opacity:1;
+  padding-top:2%;
+}
+/* hover over animation - some code from w3 school*/
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #459B99;
+  overflow: hidden;
+  width: 90%;
+  height: 0;
+  transition: .5s ease;
+  text-decoration: none;
+  color:white;
+}
+.container:hover .overlay{
+  height:100%;
+
+}
+.divide{
+  border-top:1px white;
+  width:80%;
+  margin-left: 10%;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+.section-1,.section-2,.section-3,.section-a,.section-b,.section-c{
+  font-family: Helvetica,sans-serif;
+ padding-bottom:5%;
+}
+.animal-information-card-section{
+  flex-direction:column;
+  align-items: stretch;
+  width:50%;
+  padding-left:10%;
+  
+}
+.animal-information-card{
+  display:flex;
+}
+.gallery-icon{
+  width:80%;
+  
+}
+
+/*icon section*/
+.animal-icon-information{
+  display:flex;
+  width:80%;
+  margin-left:10%;
+}
+.icon-section{
+  flex-direction:column;
+  align-items:stretch;
+  justify-content: space-between;
+  
+}
+.icon-text-1, .icon-text-2, .icon-text-3, .icon-text-4{
+  padding-bottom:60%;
+  font-family: Helvetica,sans-serif;
+  margin-left:0;
+} 
+.icon-1, .icon-3{
+  padding-bottom:30%;
+}
+.icon-section-2{
+  margin-right:20%;
+}
+
+
+
+
+/*Meet in person form css*/
+
+
+.meet-in-person{
+  color:#FFAD5C;
+  font-family: brother-1816-printed,sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size:300%;
+}
+.MIP-text-title{
+  padding-bottom:3%;
+}
+.content{  
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  display:flex;
+    
+}
+.Animal-profile-MIP{
+  width:50%;
+}
+.user-information-sidebar{
+  width:80%;
+  padding-left:5%;
+  padding-right:5%;
+}
+.form-information{
+  font-family: Helvetica,sans-serif;
+  color:#459B99;
+  padding-bottom:3%;
+}
+.form-divider{
+  margin-top:3%;
+  border:1px solid #FFAD5C;
 }
