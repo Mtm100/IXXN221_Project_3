@@ -49,7 +49,7 @@ body {
 /*heading text*/
 .text-gallery-title{
   text-align:center;
- padding-top:1%;
+  padding-top:1%;
   padding-bottom:2%;
 }
 .adopt-today{
@@ -238,3 +238,39 @@ body {
 
 
 /*Meet in person form css*/
+
+
+.meet-in-person{
+  color:#FFAD5C;
+  font-family: brother-1816-printed,sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size:300%;
+}
+.MIP-text-title{
+  padding-bottom:3%;
+}
+.content{  
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  display:flex;
+    
+}
+.Animal-profile-MIP{
+  width:50%;
+}
+.user-information-sidebar{
+  width:80%;
+  padding-left:5%;
+  padding-right:5%;
+}
+.form-information{
+  font-family: Helvetica,sans-serif;
+  color:#459B99;
+  padding-bottom:3%;
+}
+.form-divider{
+  margin-top:3%;
+  border:1px solid #FFAD5C;
+}
