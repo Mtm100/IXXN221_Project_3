@@ -6,6 +6,71 @@ body {
   line-height: 1.4;
   background-color: #F9F9F9;
 }
+/* Home Page Background Img */
+.bgimg { 
+  background: url(images/HomePagePhoto.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Homepage Text & Button */
+.heading-container{
+    position: absolute;
+    bottom: 250px;
+    left: 60px;
+  }
+.headline{
+  font-family: brother-1816, sans-serif;
+  font-weight: 800;
+  color: #FFAD5C;
+  font-size: 60px;
+}
+.tagline{
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  color: #459B99;
+  font-size: 25px;
+  padding-right: 35%;
+}
+
+.adopt2daytext{
+  position: absolute;
+  bottom: 120px;
+  left: 60px;
+  font-family: brother-1816, sans-serif;
+  font-weight: 800;
+  color: #FFAD5C;
+  font-size: 20px;
+}
+.adoptpaw{
+  position: absolute;
+  bottom: 130px;
+  left: 380px;
+
+
+}
+.adopt2day{
+  padding-right: 35%;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.adopt2day:hover {
+  
+  text-shadow:0px 0px 30px #303030;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.Social{
+  position: absolute;
+  bottom: 50px;
+  right: 60px;
+}
+
+/* Nav Bar */
 
 .navigation-bar {
   width: 100%;  
