@@ -44,6 +44,8 @@ body {
   li a:hover {
     text-shadow: 2px 2px #000;
   }
+
+/*Animal gallery css*/
 /*heading text*/
 .text{
   text-align:center;
@@ -204,25 +206,35 @@ body {
   display:flex;
 }
 .gallery-icon{
-  width:50%;
+  width:80%;
+  
 }
 
 /*icon section*/
 .animal-icon-information{
   display:flex;
+  width:80%;
+  margin-left:10%;
 }
 .icon-section{
   flex-direction:column;
   align-items:stretch;
-  width:30%;
+  justify-content: space-between;
+  
 }
 .icon-text-1, .icon-text-2, .icon-text-3, .icon-text-4{
-  padding-bottom:30%;
+  padding-bottom:60%;
   font-family: Helvetica,sans-serif;
+  margin-left:0;
 } 
-.icon-1, .icon-2, .icon-3, .icon-4{
+.icon-1, .icon-3{
   padding-bottom:30%;
 }
-.icon-1, .icon-2{
-  padding-left:30%;
+.icon-section-2{
+  margin-right:20%;
 }
+
+
+
+
+/*Meet in person form css*/
