@@ -23,3 +23,54 @@ ul {
     text-shadow: 2px 2px #000;
   }
   
+ 
+
+  .Title{
+    position: absolute;
+    width: 350px;
+    height: 77px;
+    left: 263px;
+    top: 157px;
+    font-family: brother-1816-printed, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    /* identical to box height */
+    text-align: justify;
+
+    color: #FFAD5C;
+  }
+  .Info{
+    position: absolute;
+    width: 914px;
+    height: 140px;
+    left: 263px;
+    top: 280px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #459B99;
+  }
+  .AboutUsImg{
+    position: absolute;
+    width: 647px;
+    height: 432px;
+    left: 396px;
+    top: 512px;
+    padding-bottom: 5%;
+    
+
+    background: url(AboutUsPic.jpg);
+    border-radius: 6px;
+  }
+  .AboutUsLine{
+    position: absolute;
+   
+    left: 262px;
+    top: 267px;
+  }
