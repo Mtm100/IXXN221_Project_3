@@ -512,9 +512,33 @@ input,label {
 }
 
 
+/* profile page css */
 
 
+.profile-wrapper{
+  display:flex;
+}
+.profile-container-carousel{
+  width:50%;
+  flex-direction: column;
+}
+.carousel-indicators{
+  border:pink;
+ 
+}
+.profile-container-sidebar{
+  background-color:pink;
+  width:50%;
+  height:100%;
+  flex-direction:column;
 
+}
+.profile-sidebar{
+  background-color:#7DDAD9;
+  width:80%;
+  margin-left:20%;
+  height:100%;
+}
 
 
 
