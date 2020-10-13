@@ -56,7 +56,7 @@
                     <div class="input-heading">
                         <h4 class="input-title">POST CODE</h4> 
                     </div>
-                    <div class="input-heading">
+                    <div class="input-heading-AY">
                         <h4 class="input-title">ABOUT YOURSELF</h4>
                     </div>
                     <div class="input-heading-PD">
@@ -85,7 +85,11 @@
                             <textarea  class="input-box-AY" placeholder="About yourself"></textarea>
                         </div>
                         <div class="user-input-field">
-                            <p>date</p>
+
+                            <!--Code from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date -->
+                            <input type="date" id="start" name="trip-start"value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                                
+      
                         </div>
                         <div class="user-input-field">
                             <select class="time-select" >

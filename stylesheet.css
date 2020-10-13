@@ -388,16 +388,22 @@ body.gallery {
 
 .input-heading{
   padding-bottom:25%;
+  padding-top:5%;
 }
 .input-heading-PD{
-  padding-top:50%;
+  padding-top:80%;
 }
 .input-heading-PT{
-  padding-top:20%;
+  padding-top:30%;
   padding-bottom:20%;
 }
 .user-input-field{
   padding-bottom:10%;
+  
+}
+.input-heading-AY{
+  padding-bottom:10%;
+  padding-top:20%;
   
 }
 
@@ -494,7 +500,16 @@ body.gallery {
   width:50%;
 
 }
+/*Code from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date */
 
+
+input,label {
+  margin: .4rem 0;
+  font-family: Helvetica,sans-serif;
+  border:none;
+  background-color:#F5F5F5;
+  color:#9F9F9F;
+}
 
 
 
