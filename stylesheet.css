@@ -299,43 +299,6 @@ body {
 
 /*Meet in person form css*/
 
-
-.meet-in-person{
-  color:#FFAD5C;
-  font-family: brother-1816-printed,sans-serif;
-  font-weight: 700;
-  font-style: normal; 
-  font-size:300%;
-}
-.MIP-text-title{
-  padding-bottom:3%;
-}
-.content{  
-  background-color: white;
-  padding: 20px;
-  margin: 0 auto;
-  display:flex;
-    
-}
-.Animal-profile-MIP{
-  width:50%;
-}
-.user-information-sidebar{
-  width:80%;
-  padding-left:5%;
-  padding-right:5%;
-}
-.form-information{
-  font-family: Helvetica,sans-serif;
-  color:#459B99;
-  padding-bottom:3%;
-}
-.form-divider{
-  margin-top:3%;
-  border:1px solid #FFAD5C;
-}
-/*Meet in person form css*/
-
 .meet{
   background:white;
 }
@@ -473,16 +436,22 @@ body {
 
 .input-heading{
   padding-bottom:25%;
+  padding-top:5%;
 }
 .input-heading-PD{
-  padding-top:50%;
+  padding-top:80%;
 }
 .input-heading-PT{
-  padding-top:20%;
+  padding-top:30%;
   padding-bottom:20%;
 }
 .user-input-field{
   padding-bottom:10%;
+  
+}
+.input-heading-AY{
+  padding-bottom:10%;
+  padding-top:20%;
   
 }
 
@@ -577,6 +546,17 @@ body {
 }
 .Animal-profile-MIP-container{
   width:50%;
+
+}
+/*Code from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date */
+
+
+input,label {
+  margin: .4rem 0;
+  font-family: Helvetica,sans-serif;
+  border:none;
+  background-color:#F5F5F5;
+  color:#9F9F9F;
 }
 
 /* About Us CSS */
