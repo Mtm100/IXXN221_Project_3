@@ -523,7 +523,7 @@ input,label {
   flex-direction: column;
 }
 .carousel-indicators{
-  border:pink;
+  background-color:;
  
 }
 .profile-container-sidebar{
@@ -533,12 +533,15 @@ input,label {
   flex-direction:column;
 
 }
-.profile-sidebar{
+.profile-sidebar-text{
   background-color:#7DDAD9;
   width:80%;
   margin-left:20%;
   height:100%;
 }
+button .comment { display: none; }
+button:hover .replies { display: none; }
+button:hover .comment { display: inline; }
 
 
 
