@@ -271,10 +271,7 @@ body.gallery {
   display:flex;
     
 }
-.Animal-profile-MIP-container{
-  width:50%;
-  background-color:blue;
-}
+
 .user-information-sidebar{
   width:80%;
   padding-left:5%;
@@ -377,10 +374,7 @@ body.gallery {
 }
 .input-field-container-1{
   flex-direction: column;
-  
   margin-right:10%;
- 
-  
   
 }
 .input-field-container-2{
@@ -442,6 +436,7 @@ body.gallery {
   border-radius: 50%;
   border:3px solid #9EE5E4;
   position: relative;
+  margin-left: 15%;
 }
 .MIP-animal-name{
   font-family: brother-1816, sans-serif;
@@ -449,10 +444,7 @@ body.gallery {
   font-style: normal;
   color:white;
 }
-.MIP-animal-information{
-  color:white;
-  font-family: Helvetica,sans-serif;
-}
+
 .MIP-animal-info-text{
   
   margin-left:20%;
@@ -465,27 +457,41 @@ body.gallery {
   margin-bottom:30%;
 }
 .MIP-animal-information{
-  padding-bottom:10%;
+  padding-bottom:20%;
+  color:white;
+  font-family: Helvetica,sans-serif;
+}
+.MIP-animal-information-bottom{
+  padding-bottom:40%;
+  color:white;
+  font-family: Helvetica,sans-serif;
 }
 .MIP-AP-divider{
-  width:70%;
+  width:90%;
   margin-top: 5%;
   margin-bottom: 10%;
+  border-top:2px solid white;
 }
 .MIP-animal-image-wrapper{
   position: absolute;
-  width: 50%;
+  width: 40%;
 }
 
 .MIP-profile-float{
-  background-color:#459B99;
-  width:100%;
-}
-.Animal-profile-MIP-container{
-  margin-top:20%;
-  padding-top:30%;
+  
+  margin-top:45%;
+  padding-top:25%;
   background-color:#459B99;
   border-radius: 12px;
+  margin-left:10%;
+  width:80%;
+  /*code from css-tricks*/
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+.Animal-profile-MIP-container{
+  width:50%;
 
 }
 
