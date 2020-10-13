@@ -334,3 +334,247 @@ body {
   margin-top:3%;
   border:1px solid #FFAD5C;
 }
+/*Meet in person form css*/
+
+.meet{
+  background:white;
+}
+.meet-in-person{
+  color:#FFAD5C;
+  font-family: brother-1816-printed,sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size:300%;
+}
+.MIP-text-title{
+  padding-bottom:3%;
+}
+.content{  
+  
+  padding: 20px;
+  
+  display:flex;
+    
+}
+
+.user-information-sidebar{
+  width:80%;
+  padding-left:5%;
+  padding-right:5%;
+  
+}
+.form-information{
+  font-family: Helvetica,sans-serif;
+  color:#459B99;
+  padding-bottom:3%;
+}
+.form-divider{
+  margin-top:3%;
+  border:1px solid #FFAD5C;
+  margin-bottom:5%;
+}
+.input-title{
+  font-family: Helvetica,sans-serif;
+  color:#459B99;
+   
+}
+/*input box styling - each box gets its own individual styling*/
+.input-box-FN{
+  background-color:#F5F5F5;
+  border:none;
+  outline:none;
+  color:#B5B5B5;
+  font-family: Helvetica,sans-serif;
+  /*padding:15px 105px 15px 26px;*/
+  padding:4% 10% 4% 6%;
+  border-radius: 5px;
+  font-size:100%;
+
+}
+.input-box-LN{
+  background-color:#F5F5F5;
+  border:none;
+  outline:none;
+  color:#B5B5B5;
+  font-family: Helvetica,sans-serif;
+  /*padding:15px 105px 15px 26px;*/
+  padding:4% 10% 4% 6%;
+  border-radius: 5px;
+  font-size:100%;
+
+}
+.input-box-EA{
+  background-color:#F5F5F5;
+  border:none;
+  outline:none;
+  color:#B5B5B5;
+  font-family: Helvetica,sans-serif;
+  /*padding:15px 105px 15px 26px;*/
+  padding:4% 30% 4% 6%;
+  border-radius: 5px;
+  font-size:100%;
+
+}
+.input-box-CN{
+  background-color:#F5F5F5;
+  border:none;
+  outline:none;
+  color:#B5B5B5;
+  font-family: Helvetica,sans-serif;
+  /*padding:15px 105px 15px 26px;*/
+  padding:4% 10% 4% 6%;
+  border-radius: 5px;
+  font-size:100%;
+
+}
+.input-box-PC{
+  background-color:#F5F5F5;
+  border:none;
+  outline:none;
+  color:#B5B5B5;
+  font-family: Helvetica,sans-serif;
+  /*padding:15px 105px 15px 26px;*/
+  padding:4% 0% 4% 6%;
+  border-radius: 5px;
+  font-size:100%;
+
+}
+.input-box-AY{
+  background-color:#F5F5F5;
+  border:none;
+  outline:none;
+  color:#B5B5B5;
+  font-family: Helvetica,sans-serif;
+  /*padding:15px 105px 15px 26px;*/
+  padding:5% 118% 50% 5%;
+  border-radius: 5px;
+  margin-top:9%;
+  font-size:100%;
+
+}
+.form-wrapper{
+  display:flex;
+  
+  
+}
+.input-field-container-1{
+  flex-direction: column;
+  margin-right:10%;
+  
+}
+.input-field-container-2{
+  flex-direction: column;
+  
+  
+}
+.input-field-container-3{
+  margin-left:4%;
+}
+
+.input-heading{
+  padding-bottom:25%;
+}
+.input-heading-PD{
+  padding-top:50%;
+}
+.input-heading-PT{
+  padding-top:20%;
+  padding-bottom:20%;
+}
+.user-input-field{
+  padding-bottom:10%;
+  
+}
+
+.time-select{
+  background-color:#F5F5F5;
+  border:none;
+  outline:none;
+  color:#B5B5B5;
+  font-family: Helvetica,sans-serif;
+  /*padding:15px 105px 15px 26px;*/
+  padding:2% 10% 5% 4%;
+  border-radius: 5px;
+  margin-top:9%;
+  font-size:100%;
+
+}
+.submit{
+  background-color:#FFAD5C;
+  font-family: brother-1816, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:white;
+  border:none;
+  padding:1% 6%  1% 6%;
+  border-radius:8px;
+  font-size: 120%;
+  margin-left:80%;
+  text-decoration: none;
+  
+}
+.submit-button{
+  margin-bottom:5%;
+}
+.MIP-animal-image{
+  width:50%;
+  border-radius: 50%;
+  border:3px solid #9EE5E4;
+  position: relative;
+  margin-left: 15%;
+}
+.MIP-animal-name{
+  font-family: brother-1816, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color:white;
+}
+
+.MIP-animal-info-text{
+  
+  margin-left:20%;
+  margin-right: 10%;
+  margin-left:10%;
+  
+  /*position: relative;*/
+  top:40%;
+  
+  margin-bottom:30%;
+}
+.MIP-animal-information{
+  padding-bottom:20%;
+  color:white;
+  font-family: Helvetica,sans-serif;
+}
+.MIP-animal-information-bottom{
+  padding-bottom:40%;
+  color:white;
+  font-family: Helvetica,sans-serif;
+}
+.MIP-AP-divider{
+  width:90%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-top:2px solid white;
+}
+.MIP-animal-image-wrapper{
+  position: absolute;
+  width: 40%;
+}
+
+.MIP-profile-float{
+  
+  margin-top:45%;
+  padding-top:25%;
+  background-color:#459B99;
+  border-radius: 12px;
+  margin-left:10%;
+  width:80%;
+  /*code from css-tricks*/
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+.Animal-profile-MIP-container{
+  width:50%;
+}
