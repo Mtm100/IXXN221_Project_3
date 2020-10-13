@@ -580,52 +580,50 @@ body {
 }
 
 /* About Us CSS */
-.Title{
-  position: absolute;
-  width: 350px;
-  height: 77px;
-  left: 263px;
-  top: 157px;
-  font-family: brother-1816-printed, sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 64px;
-  line-height: 77px;
-  /* identical to box height */
-  text-align: justify;
-
+.aboutustag{
+  font-family: brother-1816, sans-serif;
+  font-weight: 800;
   color: #FFAD5C;
+  font-size: 25px;
+  padding-left: 10%;
 }
 .Info{
-  position: absolute;
-  width: 914px;
-  height: 140px;
-  left: 263px;
-  top: 280px;
-
-  font-family: Helvetica;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
   color: #459B99;
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  width: 80%;
+  left: 0;
+  top: 0;
+
+  padding-top: 20px;
+  
+  z-index: 1;
+  padding-left: 10%;
+
 }
 .AboutUsImg{
-  position: absolute;
-  width: 647px;
-  height: 432px;
-  left: 396px;
-  top: 512px;
-  padding-bottom: 5%;
+  padding-top: 420px;
+  padding-bottom: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   
 
   background: url(AboutUsPic.jpg);
   border-radius: 6px;
 }
-.AboutUsLine{
-  position: absolute;
- 
-  left: 262px;
-  top: 267px;
+.aboutusline{
+  width: 70%;
+  height: 5px;
+  background-color: #FFAD5C;
+  margin-left: 10%;
+  margin-top: 5px;
+
 }
