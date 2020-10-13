@@ -35,3 +35,83 @@ body {
   color: #F9F9F9;
   text-decoration: none;
 }
+
+
+  .TitleConfirm{
+    position: absolute;
+        padding: 20px 0px 15px;
+    width: 800px;
+    height: 77px;
+    left: 300px;
+    top: 125px;
+    font-family: brother-1816-printed, sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 50px;
+    line-height: 77px;
+    /* identical to box height */
+
+    color: #FFAD5C;
+  }
+  .Info{
+    position: absolute;
+    width: 914px;
+    height: 140px;
+    left: 263px;
+    top: 205px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #459B99;
+  }
+
+
+  .ConfirmationText{
+    position: absolute;
+    margin-left: 0em;
+    padding: 1em 0 0 0;
+    font-weight: bold;
+    font-family: brother-1816-printed, sans-serif;
+  }
+  .ConfirmBox{
+  position: absolute;   left: 300px;
+  width: 870px;
+  top: 370px;
+  background-color: #F5F5F5;
+  box-shadow: 1px 4px 4px #C4C4C4;
+  height: 250px;
+  border: 0px solid;
+  padding: 15px;
+  margin: 0px;
+}
+.ConfirmHomeButton{
+  position: absolute;
+  background-color:#FFAD5C;
+  left:660px;
+  top:695px;
+  margin: auto;
+  width: auto;
+  border-radius:10px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: justify;
+  text-decoration: none;
+  display: inline;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: brother-1816-printed, sans-serif
+  
+}
+
+.ConfirmBoxText{
+     margin-left: 1em;
+    padding: 0 0 0 0;
+    font-weight: ;
+    font-family: brother-1816-printed, sans-serif;
+}
