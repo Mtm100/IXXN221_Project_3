@@ -21,20 +21,21 @@
 <!--Code from W3 schools-->
 <div class="profile-wrapper">
     <div class="profile-container-carousel">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
         <!-- Indicators -->
         <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active" class="circle-nav-active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="circle-nav"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="circle-nav" ></li>
         <li data-target="#myCarousel" data-slide-to="2" class="circle-nav"></li>
         <li data-target="#myCarousel" data-slide-to="3" class="circle-nav"></li>
         <li data-target="#myCarousel" data-slide-to="4" class="circle-nav"></li>
         <li data-target="#myCarousel" data-slide-to="5" class="circle-nav"></li>
         </ol>
+        <!--To override the colour of the dots, styling must go in <li>, but doesn't effect the active dot... (style="border:1px solid #459B99; background-color: #459B99;")-->
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-        <div class="item active">
+        <div class="carousel-inner" style="border-radius: 20px; " >
+        <div class="item active" >
             <img src="images/AP1 2.jpg" alt="Los Angeles" style="width:100%;">
         </div>
 
@@ -66,23 +67,28 @@
     </div>
     <div class="profile-container-sidebar">
         <div class="profile-sidebar-text">
-        <h1> Rupert</h1>
-        <p>I’m an energetic lil pup looking for a home to take me in. I’m good with children & love to play.
+        <h1 class="profile-name"> Rupert</h1>
+        <p class="profile-info">I’m an energetic lil pup looking for a home to take me in. I’m good with children & love to play.
              Thanks to the care of the staff at Mitten’s I’m ready to find my forever home.</p>
-             <hr>
-             <h4>GREY HOUND</h4>
-             <h4>SIX YEARS OLD</h4>
-             <h4>TE ARO</h4>
-             <h4>VACCINATED</h4>
-             <h4>VICTIM OF ABUSE</h4>
-             <h4>GOOD WITH CHILDREN</h4>
-             <h4>HIGH ENERGY</h4>
+             <hr class="profile-divider">
+             <h4 class="profile-info-sub">GREY HOUND</h4>
+             <h4 class="profile-info-sub">SIX YEARS OLD</h4>
+             <h4 class="profile-info-sub">TE ARO</h4>
+             <h4 class="profile-info-sub">VACCINATED</h4>
+             <h4 class="profile-info-sub">VICTIM OF ABUSE</h4>
+             <h4 class="profile-info-sub">GOOD WITH CHILDREN</h4>
+             <h4 class="profile-info-sub">HIGH ENERGY</h4>
              <div class="sidebar-buttons">
-                <a href="meet.html">MEET</a>
-                <button>
-                    <span class="replies">5 Replies</span>
-                    <span class="comment">Reply!</span>
+                 
+                <!--Code from https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526-->
+                <button class="price-change">
+                    <p class="price"> Price</p>
+                    <p class="num-price">$200</p>
                 </button>
+                <a href="meet.html" class="meet-button">MEET</a>
+                <div class="meet-button-wrapper">
+                
+            </div>
             </div>
     </div>
     
