@@ -43,6 +43,7 @@ body.gallery {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     text-shadow: 2px 2px #000;
+    
   }
 
 /*Animal gallery css*/
@@ -265,11 +266,8 @@ body.gallery {
   padding-bottom:3%;
 }
 .content{  
-  
   padding: 20px;
-  
   display:flex;
-    
 }
 
 .user-information-sidebar{
@@ -502,7 +500,6 @@ body.gallery {
 }
 /*Code from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date */
 
-
 input,label {
   margin: .4rem 0;
   font-family: Helvetica,sans-serif;
@@ -533,7 +530,7 @@ input,label {
   padding-top:4%;
   padding-left:3%;
   padding-right:3%;
- 
+  position:sticky;
   flex-direction: column;
   
 }
@@ -560,7 +557,7 @@ input,label {
   margin:0;
   padding: 0;
   right:0;
-  position: fixed;
+  /*position: fixed;*/
   height: 100%;
   overflow: auto;
 }
@@ -568,16 +565,20 @@ input,label {
 .profile-info{
   color:white;
   font-family: Helvetica,sans-serif;
-  padding-bottom:5%;
+  padding-bottom:3%;
 
 }
 .profile-divider{
   border:2px solid #459B99;
-  margin-bottom:10%;
+  margin-bottom:8%;
 }
 .profile-info-sub{
   color:white;
   padding-bottom:5%;
+}
+.profile-info-sub-bottom{
+  color:white;
+  padding-bottom:1%;
 }
 .meet-button{
   background-color:#FFAD5C;
@@ -586,32 +587,130 @@ input,label {
   font-family: Brother 1816, Printed;
   font-style: normal;
   font-weight: 900;
-  padding:10%;
+  padding:4% 7% 4% 7%;
   border-radius: 8px;
+  font-size:22px;
 }
-.meet-button :hover{
-
+.meet-button:hover{
+  text-decoration: none;
+  color:#459B99;
 }
 
-.price-change{
-  background-color:#FFAD5C;
-  color:white;
+/* code from https://codepen.io/Jintos/pen/rolim */
+
+.button {
+  display: inline-block;
+  position: relative;
+  margin: 1em;
+  
   border:none;
-  padding:10%;
+  overflow: hidden;
+  text-decoration: none;
+  font-size:22px;
+  outline: none;
+  color: #FFF;
+  background-color:#FFAD5C ;
   border-radius: 8px;
-}
-/* code from https://stackoverflow.com/questions/9913293/change-text-on-hover-then-return-to-the-previous-text/9913526*/
-button .num-price { 
-  display: none; 
-}
-button:hover .price { 
-  display: none; 
-}
-button:hover .num-price{ 
-  display: inline; 
+  font-family: Brother 1816, Printed;
+  font-style: normal;
+  font-weight: 700;
+  padding:3% 5% 3% 5%;
 }
 
+.button span {
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
 
+.button:before,
+.button:after {
+  content: '$200';
+  position: absolute;
+  top: 0.67em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: .4s,opacity .6s;
+  -moz-transition: .4s,opacity .6s;
+  -o-transition: .4s,opacity .6s;
+  transition: .4s,opacity .6s;
+}
+
+/* :before */
+
+.button:before {
+  content: attr(data-hover);
+  -webkit-transform: translate(-150%,0);
+  -moz-transform: translate(-150%,0);
+  -ms-transform: translate(-150%,0);
+  -o-transform: translate(-150%,0);
+  transform: translate(-150%,0);
+}
+
+/* :after */
+
+.button:after {
+  content: attr(data-active);
+  -webkit-transform: translate(150%,0);
+  -moz-transform: translate(150%,0);
+  -ms-transform: translate(150%,0);
+  -o-transform: translate(150%,0);
+  transform: translate(150%,0);
+}
+
+/* Span on :hover and :active */
+
+.button:hover span,
+.button:active span {
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+/*  
+  We show :before pseudo-element on :hover 
+  and :after pseudo-element on :active 
+*/
+
+.button:hover:before,
+.button:active:after {
+  opacity: 1;
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -ms-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  transform: translate(0,0);
+  -webkit-transition-delay: .4s;
+  -moz-transition-delay: .4s;
+  -o-transition-delay: .4s;
+  transition-delay: .4s;
+}
+
+/* 
+We hide :before pseudo-element on :active
+*/
+
+.button:active:before {
+  -webkit-transform: translate(-150%,0);
+  -moz-transform: translate(-150%,0);
+  -ms-transform: translate(-150%,0);
+  -o-transform: translate(-150%,0);
+  transform: translate(-150%,0);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
 
 
 
