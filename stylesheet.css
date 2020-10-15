@@ -43,22 +43,23 @@ body {
     width: 800px;
     height: 77px;
     left: 300px;
-    top: 125px;
-    font-family: brother-1816-printed, sans-serif;
+    top: 75px;
+    font-family: brother-1816, sans-serif;
     font-style: normal;
     font-weight: 1000;
-    font-size: 50px;
+    font-size: 35px;
     line-height: 77px;
     /* identical to box height */
 
     color: #FFAD5C;
   }
-  .Info{
+
+  .SubtitleConfirm{
     position: absolute;
-    width: 914px;
+    width: 900px;
     height: 140px;
-    left: 263px;
-    top: 205px;
+    left: 300px;
+    top: 225px;
 
     font-family: Helvetica;
     font-style: normal;
@@ -93,7 +94,6 @@ body {
   background-color:#FFAD5C;
   left:660px;
   top:695px;
-  margin: auto;
   width: auto;
   border-radius:10px;
   border: none;
@@ -105,8 +105,8 @@ body {
   font-size: 20px;
   cursor: pointer;
   font-weight: bold;
-  font-family: brother-1816-printed, sans-serif
-  
+  font-family: brother-1816-printed, sans-serif;
+  margin-bottom: 3%;
 }
 
 .ConfirmBoxText{
@@ -114,4 +114,15 @@ body {
     padding: 0 0 0 0;
     font-weight: ;
     font-family: brother-1816-printed, sans-serif;
+    
+}
+.confirmOrangeLineS{
+  border-top: 5px solid #FFAD5C;
+
+  
+}
+.second-line
+}
+.ConfirmMargin{
+ margin-bottom: 50px;
 }
