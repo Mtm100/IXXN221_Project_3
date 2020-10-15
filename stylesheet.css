@@ -581,14 +581,14 @@ input,label {
   font-weight: 800;
   color: #FFAD5C;
   font-size: 25px;
-  padding-left: 18%;
+  padding-left: 12%;
 }
 .Info{
   font-family: brother-1816, sans-serif;
   font-weight: 400;
   color: #459B99;
   font-size: 25px;
-  margin: 2em 0em;
+  margin: 2em 7em;
   padding-top: 20px;
   
   z-index: 1;
@@ -596,7 +596,7 @@ input,label {
 
 }
 .AboutUsImg{
-  padding-top: 300px;
+  padding-top: 0px;
   padding-bottom: 100px;
   display: block;
   margin-left: auto;
@@ -611,7 +611,7 @@ input,label {
   width: 70%;
   height: 5px;
   background-color: #FFAD5C;
-  margin-left: 18%;
+  margin-left: 12%;
   margin-top: 5px;
 }
 
